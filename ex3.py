@@ -4,6 +4,7 @@
 # Ex3) b -
 preco = 50
 vendas = 800
+receita = vendas*preco
 
 while preco < 115:
     preco += 5
@@ -11,10 +12,9 @@ while preco < 115:
 print(vendas)
 
 # Ex3) c -
-while vendas < 5000:
+while 50000 > receita:
     preco -= 5
     vendas += 20
-print(vendas)
-print(preco)
+print(receita)
 
 # Ex3) d -
